@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Jasminoides",
+	"description": "Open Gemini in sidebar",
+	"version": "0.0.1",
+	"permissions": ["<all_urls>"],
+	"sidebar_action": {
+		"default_panel": "jasminoides_sidebar.html",
+		"default_title": "Jasminoides"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{acb35b15-87f3-4279-a761-039846da83ed}",
+			"strict_min_version": "117.0"
+		}
+	}
+}
