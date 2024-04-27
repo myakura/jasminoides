@@ -1,12 +1,26 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Jasminoides",
 	"description": "Open Gemini in sidebar",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"permissions": ["<all_urls>"],
 	"sidebar_action": {
 		"default_panel": "jasminoides_sidebar.html",
-		"default_title": "Jasminoides"
+		"default_title": "Jasminoides",
+		"open_at_install": false
+	},
+	"background": {
+		"scripts": ["jasminoides_background.js"],
+		"persistent": false,
+		"type": "module"
+	},
+	"commands": {
+		"toggle-sidebar": {
+			"description": "Toggle sidebar",
+			"suggested_key": {
+				"default": "Alt+Shift+G"
+			}
+		}
 	},
 	"browser_specific_settings": {
 		"gecko": {
