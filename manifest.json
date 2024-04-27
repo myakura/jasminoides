@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Jasminoides",
 	"description": "Open Gemini in sidebar",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"permissions": ["<all_urls>"],
 	"sidebar_action": {
 		"default_panel": "jasminoides_sidebar.html",
