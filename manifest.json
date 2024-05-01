@@ -2,11 +2,16 @@
 	"manifest_version": 2,
 	"name": "Jasminoides",
 	"description": "Open Gemini in sidebar",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"permissions": ["<all_urls>"],
+	"icons": {
+		"48": "icon.png",
+		"96": "icon.png"
+	},
 	"sidebar_action": {
 		"default_panel": "jasminoides_sidebar.html",
 		"default_title": "Jasminoides",
+		"default_icon": "icon.png",
 		"open_at_install": false
 	},
 	"background": {
